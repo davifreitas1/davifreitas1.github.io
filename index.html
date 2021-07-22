@@ -10,9 +10,11 @@
             background-color: #CEC3C1;
             font-family: sans-serif;
             font-size: 20px;
+            text-align: center;
+            padding: 0px 400px ;
         }
 
-        #nome {
+        .name {
             color: #240115;
         }
 
@@ -25,7 +27,28 @@
         }
 
         .bolds {
-            color: #DE3C4B;"
+            color: #DE3C4B;
+        }
+
+        .list {
+            list-style-position:inside;
+        }
+
+        .description {
+            text-align: justify;
+        }
+
+        .summary {
+            text-align: justify;
+        }
+
+        .button {
+            background-color: #0a66c2;
+            color: #fff;
+            border-width: 0px;
+            text-align: justify;
+            text-decoration: none;
+            padding: 6px 12px;
         }
 
     </style>
@@ -34,7 +57,7 @@
 <body>
     <!-- Seção Índice -->
     <div>
-        <ol>
+        <ol class="summary">
             <li><a href="#nome">Nome</a></li>
             <li><a href="#foto">Foto</a></li>
             <li><a href="#descricao">Quem sou eu</a></li>
@@ -45,7 +68,7 @@
     
     <!-- Seção Nome -->
     <div id="nome">
-        <h1>Davi Silva Varejão de Freitas</h1>
+        <h1 class="name">Davi Silva Varejão de Freitas</h1>
     </div>
 
     <!-- Seção Foto -->
@@ -56,14 +79,14 @@
     <!-- Seção Descrição -->
     <div id="descricao">
         <h2>Sobre mim</h2>
-        <p class="text" >Olá! Sou brasileiro, tenho 20 anos e moro em Paulista-PE, <strong class="bolds">adoro tecnologia</strong> e pretendo construir minha carreira nesse ramo com bastante <strong class="bolds">esforço e competência</strong>.</p>
-        <a href="https://www.linkedin.com/in/dvfreitas/" target="_blank">LinkedIn</a>
+        <p class="text description" >Olá! Sou brasileiro, tenho 20 anos e moro em Paulista-PE, <strong class="bolds">adoro tecnologia</strong> e pretendo construir minha carreira nesse ramo com bastante <strong class="bolds">esforço e competência</strong>.</p>
+        <a class="button"href="https://www.linkedin.com/in/dvfreitas/" target="_blank">LinkedIn</a>
     </div>
         
     <!-- Seção Habilidades -->
     <div id="habilidades">
         <h2>Minhas Habilidades</h2>
-        <ul class="text">
+        <ul class="text list">
             <li>Dominando Git e Github</li>
             <li>Aprendendo HTML</li>
             <li>Aprendendo CSS</li>
