@@ -1,0 +1,50 @@
+body {
+    background-color: #CEC3C1;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name {
+    color: #240115;
+}
+
+.text {
+    color: #2F131E;
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.bolds {
+    color: #DE3C4B;
+}
+
+.list {
+    list-style-position:inside;
+}
+
+.description {
+    text-align: justify;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.button {
+    background-color: #0a66c2;
+    color: #fff;
+    border-width: 0px;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
+.hard-skills {
+    font-size: 120%;
+}
+
+.soft-skills {
+    font-size: 150%;
+}
